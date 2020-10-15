@@ -4,7 +4,11 @@ class.taksshi.image=bee.png
 =======
 class.bear.image=teddybear.png
 class.hoge.image=bee.png
+<<<<<<< HEAD
 >>>>>>> 9bcf250ef23bc502d6bccdefb12fdaa9a2b188a9
+=======
+class.ino.image=bee2.png
+>>>>>>> 699ec9502b1fa0d93e9ad51fdf2b5c66d65a1ab1
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -12,10 +16,14 @@ editor.fx.0.y=0
 height=585
 package.numDependencies=0
 <<<<<<< HEAD
+<<<<<<< HEAD
 package.numTargets=2
 =======
 package.numTargets=3
 >>>>>>> 9bcf250ef23bc502d6bccdefb12fdaa9a2b188a9
+=======
+package.numTargets=4
+>>>>>>> 699ec9502b1fa0d93e9ad51fdf2b5c66d65a1ab1
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -60,15 +68,27 @@ xPosition=312
 yPosition=152
 =======
 target3.height=50
-target3.name=MyWorld
+target3.name=ino
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
 target3.x=0
 target3.y=0
+target4.height=50
+target4.name=MyWorld
+target4.showInterface=false
+target4.type=ClassTarget
+target4.width=80
+target4.x=0
+target4.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=811
 yPosition=205
 >>>>>>> 9bcf250ef23bc502d6bccdefb12fdaa9a2b188a9
+=======
+xPosition=739
+yPosition=189
+>>>>>>> 699ec9502b1fa0d93e9ad51fdf2b5c66d65a1ab1
