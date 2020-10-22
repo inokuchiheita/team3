@@ -15,7 +15,7 @@ public class ino extends Actor
     public void act() 
     {
         if( Greenfoot.isKeyDown( "left" ) ){
-        setRotation(0);
+        setRotation(180);
         move(1);
 }
     }    
