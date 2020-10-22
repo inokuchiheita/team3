@@ -18,5 +18,9 @@ public class ino extends Actor
         setRotation(180);
         move(1);
 }
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(1);
+}
     }    
 }

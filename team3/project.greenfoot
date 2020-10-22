@@ -2,11 +2,18 @@
 class.bear.image=teddybear.png
 class.hoge.image=bee.png
 class.ino.image=bee2.png
+<<<<<<< HEAD
 class.taksshi.image=bee.png
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+>>>>>>> 2ac789210413f302efbbd468ab632719ac65a3ab
 height=585
 package.numDependencies=0
 package.numTargets=5
@@ -62,5 +69,10 @@ target5.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=865
 yPosition=75
+=======
+xPosition=232
+yPosition=211
+>>>>>>> 2ac789210413f302efbbd468ab632719ac65a3ab
