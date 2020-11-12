@@ -4,32 +4,14 @@ class.bear.image=teddybear.png
 class.george.image=george.png
 class.hoge.image=bee.png
 class.ino.image=bee2.png
-class.ren.image=ren.png
 class.taksshi.image=bee.png
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-<<<<<<< HEAD
-=======
-class.taksshi.image=bee.png
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-=======
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=-32000
-editor.fx.0.y=-32000
->>>>>>> 06386bce4b9f04cd5ca5c981a6d9ab13739aefc6
->>>>>>> 507a3f82af3911f62ce40ad2d23b3dadb6a17b24
-=======
->>>>>>> ad805315f04f6149ae15ca962529406202b6dc9d
-height=585
+height=1047
 package.numDependencies=0
-package.numTargets=7
+package.numTargets=6
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -66,35 +48,28 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-target4.name=ren
+target4.name=ino
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
-target5.name=ino
+target5.name=taksshi
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
-target6.name=taksshi
+target6.name=MyWorld
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
-target7.height=50
-target7.name=MyWorld
-target7.showInterface=false
-target7.type=ClassTarget
-target7.width=80
-target7.x=0
-target7.y=0
 version=3.0.0
 width=845
 world.lastInstantiated=MyWorld
-xPosition=0
+xPosition=437
 yPosition=0
