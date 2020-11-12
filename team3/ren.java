@@ -14,6 +14,6 @@ public class ren extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        setRotation( -90 );// Add your action code here.
     }    
 }
