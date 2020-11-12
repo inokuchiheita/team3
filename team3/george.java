@@ -14,6 +14,25 @@ public class george extends Actor
      */
     public void act() 
     {
+        
+    
+    
+        int x = getX();
+        int y = getY();
+        int dig = 0;
+        
+        if( Greenfoot.isKeyDown( "left" ) ){
+            setRotation(dig-1);
+        }
+        if( Greenfoot.isKeyDown( "right" ) ){
+            setRotation(dig+1);
+        }
+        if( Greenfoot.isKeyDown( "up" ) ){
+            setLocation( x,y-1 );
+        }
+        if( Greenfoot.isKeyDown( "down" ) ){
+            setLocation( x,y+1 );
+        }
         // Add your action code here.
     }    
 }
