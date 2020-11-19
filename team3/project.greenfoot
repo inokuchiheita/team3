@@ -19,12 +19,21 @@ dependency3.from=MyWorld
 dependency3.to=hurdle
 dependency3.type=UsesDependency
 editor.fx.0.height=739
+<<<<<<< HEAD
 editor.fx.0.width=818
 editor.fx.0.x=-32000
 editor.fx.0.y=-32000
 height=585
 package.numDependencies=3
 package.numTargets=10
+=======
+editor.fx.0.width=816
+editor.fx.0.x=756
+editor.fx.0.y=260
+height=639
+package.numDependencies=2
+package.numTargets=9
+>>>>>>> be18974f8fedc5364d93d463788c2e54671aa904
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -110,7 +119,12 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-width=896
+width=990
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=23
 yPosition=161
+=======
+xPosition=467
+yPosition=261
+>>>>>>> be18974f8fedc5364d93d463788c2e54671aa904
