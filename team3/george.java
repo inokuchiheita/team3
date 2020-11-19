@@ -44,10 +44,13 @@ public class george extends Actor
         }
         setRotation(dig);
         if( Greenfoot.isKeyDown( "up" ) ){
-            move(1);
+            if(x>0){
+            setLocation( x+(int)(10*Math.cos(dig-90)),y+(int)(10*Math.sin(dig+90)));
+        }
+            
         }
         if( Greenfoot.isKeyDown( "down" ) ){
-            move(-1);
+            
         }
         
         // Add your action code here.
