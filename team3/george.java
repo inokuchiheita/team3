@@ -14,7 +14,6 @@ public class george extends Actor
      */
     public void act() 
     {
-<<<<<<< HEAD
         
     
     
@@ -22,21 +21,23 @@ public class george extends Actor
         int y = getY();
         int dig = 0;
         
-        if( Greenfoot.isKeyDown( "left" ) ){
-            setRotation(dig-1);
+        if( Greenfoot.isKeyDown( "a" ) ){
+            dig=dig-2;
+            setRotation(dig);
         }
-        if( Greenfoot.isKeyDown( "right" ) ){
-            setRotation(dig+1);
+        if( Greenfoot.isKeyDown( "d" ) ){
+            dig++;
+            setRotation(dig);
         }
-        if( Greenfoot.isKeyDown( "up" ) ){
-            setLocation( x,y-1 );
+        if( Greenfoot.isKeyDown( "w" ) ){
+            setLocation( x+1,y );
         }
-        if( Greenfoot.isKeyDown( "down" ) ){
-            setLocation( x,y+1 );
+        if( Greenfoot.isKeyDown( "s" ) ){
+            setLocation( x-1,y );
         }
         // Add your action code here.
-=======
+
         setRotation( 90 );
->>>>>>> b4de2dee820fde7c0930776393c48c50cfd2ac94
+
     }    
 }
