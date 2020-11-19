@@ -14,7 +14,7 @@ public class george extends Actor
      */
     public void act() 
     {
-<<<<<<< HEAD
+
         
     
     
@@ -35,8 +35,8 @@ public class george extends Actor
             setLocation( x,y+1 );
         }
         // Add your action code here.
-=======
+
         setRotation( 90 );
->>>>>>> b4de2dee820fde7c0930776393c48c50cfd2ac94
+
     }    
 }

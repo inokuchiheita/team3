@@ -8,12 +8,6 @@ class.ino.image=bee2.png
 class.ren.image=ren.png
 class.renweapon.image=renweapon.png
 class.taksshi.image=bee.png
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-=======
 dependency1.from=MyWorld
 dependency1.to=george
 dependency1.type=UsesDependency
@@ -22,18 +16,10 @@ dependency2.to=ren
 dependency2.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-<<<<<<< HEAD
-editor.fx.0.x=133
-editor.fx.0.y=21
->>>>>>> 845d7dec03f6a8eecf58f1de1522ded3a22f88f9
-height=585
-package.numDependencies=0
-=======
-editor.fx.0.x=340
-editor.fx.0.y=203
+editor.fx.0.x=-32000
+editor.fx.0.y=-32000
 height=28
 package.numDependencies=2
->>>>>>> b4de2dee820fde7c0930776393c48c50cfd2ac94
 package.numTargets=9
 project.charset=UTF-8
 publish.hasSource=false
@@ -113,21 +99,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=845
-world.lastInstantiated=MyWorld
-xPosition=437
-yPosition=0
-=======
-<<<<<<< HEAD
-width=974
-world.lastInstantiated=MyWorld
-xPosition=301
-yPosition=97
-=======
 width=160
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
->>>>>>> b4de2dee820fde7c0930776393c48c50cfd2ac94
->>>>>>> 845d7dec03f6a8eecf58f1de1522ded3a22f88f9
