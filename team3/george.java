@@ -6,8 +6,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+
+
 public class george extends Actor
 {
+    
+    private int dig = 90;
     /**
      * Act - do whatever the george wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -20,7 +24,7 @@ public class george extends Actor
     
         int x = getX();
         int y = getY();
-        int dig = 90;
+        
         
         if( Greenfoot.isKeyDown( "left" ) ){
             if(dig<1){
@@ -29,7 +33,6 @@ public class george extends Actor
             else{
                 dig = dig - 1;
             }
-            setRotation(dig);
         }
         if( Greenfoot.isKeyDown( "right" ) ){
             if(dig>358){
@@ -38,17 +41,17 @@ public class george extends Actor
             else{
                 dig = dig + 1;
             }
-            setRotation(dig);
         }
+        setRotation(dig);
         if( Greenfoot.isKeyDown( "up" ) ){
-            setLocation( x,y-1 );
+            move(1);
         }
         if( Greenfoot.isKeyDown( "down" ) ){
-            setLocation( x,y+1 );
+            move(-1);
         }
+        
         // Add your action code here.
 
-        setRotation( 90 );
 
     }    
 }
