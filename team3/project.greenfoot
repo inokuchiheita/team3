@@ -15,6 +15,7 @@ dependency1.type=UsesDependency
 dependency2.from=MyWorld
 dependency2.to=ren
 dependency2.type=UsesDependency
+<<<<<<< HEAD
 dependency3.from=MyWorld
 dependency3.to=hurdle
 dependency3.type=UsesDependency
@@ -25,6 +26,15 @@ editor.fx.0.y=0
 height=639
 package.numDependencies=3
 package.numTargets=10
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=756
+editor.fx.0.y=260
+height=638
+package.numDependencies=2
+package.numTargets=9
+>>>>>>> 150b8f733cf6c524d4b298ff351ee1775ea67081
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
