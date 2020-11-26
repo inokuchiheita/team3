@@ -24,7 +24,7 @@ public class ren extends Actor
         int y = getY();
         
         
-        
+        move(-1);
         if( Greenfoot.isKeyDown( "left" ) ){
             dig=dig-3;
             setRotation(dig);
@@ -44,7 +44,7 @@ public class ren extends Actor
             move(-3);
         }
         
-       
+        
 
 
 

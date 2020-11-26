@@ -10,7 +10,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class george extends Actor
 {
-    
+    private int flag_tama = 0;
     private int dig = 0;
     /**
      * Act - do whatever the george wants to do. This method is called whenever
@@ -45,9 +45,16 @@ public class george extends Actor
             setRotation(dig);
             move(-3);
         }
+        if( flag_tama > 0 ) flag_tama--;
+        if( Greenfoot.isKeyDown( "e" ) ){
+             {if( flag_tama == 0 ){
+                getWorld().addObject( new georgeweapon2(getRotation()), x, y );
+                
+                flag_tama = 50;
+            }
+        }
+    }  
         
-       
-
 
 
     }    

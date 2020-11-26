@@ -22,5 +22,6 @@ public class MyWorld extends World
         addObject( new hurdle(), 300, 100);
         addObject( new hurdle(), 100, 300 );
         addObject( new hurdle(), 450, 350);
+        
     }
 }
