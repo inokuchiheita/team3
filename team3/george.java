@@ -12,6 +12,7 @@ public class george extends Actor
 {
     private int flag_tama = 0;
     private int dig = 0;
+    private int hp = 3;
     /**
      * Act - do whatever the george wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -21,18 +22,19 @@ public class george extends Actor
 
         
     
-    
+        
         int x = getX();
         int y = getY();
         
         
-        move(1);
+        
         if( Greenfoot.isKeyDown( "a" ) ){
-            dig=dig-3;
+
+            dig=dig-5;
             setRotation(dig);
         }
         if( Greenfoot.isKeyDown( "d" ) ){
-            dig=dig+3;
+            dig=dig+5;
             setRotation(dig);
         }
         if( Greenfoot.isKeyDown( "w" ) ){
@@ -43,8 +45,9 @@ public class george extends Actor
         if( Greenfoot.isKeyDown( "s" ) ){
             //setLocation( x-1,y );
             setRotation(dig);
-            move(-3);
+            move(-2);
         }
+<<<<<<< HEAD
         if( flag_tama > 0 ) flag_tama--;
         if( Greenfoot.isKeyDown( "e" ) ){
              {if( flag_tama == 0 ){
@@ -55,6 +58,24 @@ public class george extends Actor
         }
     }  
         
+=======
+        move(2);
+        
+        //当たり判定
+        Actor actor = getOneIntersectingObject( renweapon.class );
+        if( actor != null ){
+                    hp--;// TARO とぶつかった時の処理を書く
+                    getWorld().removeObject( actor );
+                    setLocation( 100,200 );
+        }    
+        
+        Actor actor1 = getOneIntersectingObject( hurdle.class );
+        if( actor1 != null ){
+            setRotation(dig);
+            setLocation( x,y );
+        }  
+
+>>>>>>> ea5ed65e3cbbda52c610a9ec93cdcf91a15b69e2
 
 
     }    
