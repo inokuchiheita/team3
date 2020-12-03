@@ -22,7 +22,7 @@ public class georgeweapon2 extends Actor
     {
         move(3);
         // Add your action code here.
-  
+        Actor actor = getOneIntersectingObject( georgeweapon2.class );
         
     } 
     

@@ -21,16 +21,8 @@ public class MyWorld extends World
         addObject( new ren(), 500, 200 );
         addObject( new hurdle(), 300, 100);
         addObject( new hurdle(), 100, 300 );
-<<<<<<< HEAD
-        addObject( new hurdle(), 450, 350);
-        addObject( new hurdle(), 450, 320);
-=======
-
-        addObject( new hurdle(), 450, 350);
-        
-
         addObject( new hurdle(), 450, 320);
 
->>>>>>> 3498167528d77c46264a30a0209e190405e8876c
+
     }
 }
