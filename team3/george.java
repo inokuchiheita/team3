@@ -10,7 +10,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class george extends Actor
 {
-    
+    private int flag_tama = 0;
     private int dig = 0;
     private int hp = 3;
     /**
@@ -47,6 +47,18 @@ public class george extends Actor
             setRotation(dig);
             move(-2);
         }
+<<<<<<< HEAD
+        if( flag_tama > 0 ) flag_tama--;
+        if( Greenfoot.isKeyDown( "e" ) ){
+             {if( flag_tama == 0 ){
+                getWorld().addObject( new georgeweapon2(getRotation()), x, y );
+                
+                flag_tama = 50;
+            }
+        }
+    }  
+        
+=======
         move(2);
         
         //当たり判定
@@ -63,6 +75,7 @@ public class george extends Actor
             setLocation( x,y );
         }  
 
+>>>>>>> ea5ed65e3cbbda52c610a9ec93cdcf91a15b69e2
 
 
     }    
