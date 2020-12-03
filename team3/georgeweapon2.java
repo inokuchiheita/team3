@@ -20,10 +20,21 @@ public class georgeweapon2 extends Actor
     
     public void act() 
     {
+<<<<<<< HEAD
         move(5);
         // Add your action code here.
         Actor actor = getOneIntersectingObject( georgeweapon2.class );
+=======
+        int x = getX();
+        int y = getY();
+>>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
         
+        move(5);
+        // Add your action code here.
+        Actor actor = getOneIntersectingObject( renweapon2.class );
+        if( actor != null ){
+                    getWorld().removeObject( actor );
+        }  
     } 
     
 }

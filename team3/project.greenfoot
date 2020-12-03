@@ -12,39 +12,66 @@ class.taksshi.image=bee.png
 dependency1.from=MyWorld
 dependency1.to=george
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=ren
 dependency10.to=hurdle
 dependency10.type=UsesDependency
+=======
+dependency10.from=george
+dependency10.to=hurdle
+dependency10.type=UsesDependency
+dependency11.from=ren
+dependency11.to=renweapon2
+dependency11.type=UsesDependency
+dependency12.from=ren
+dependency12.to=georgeweapon2
+dependency12.type=UsesDependency
+dependency13.from=ren
+dependency13.to=hurdle
+dependency13.type=UsesDependency
+>>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
 dependency2.from=MyWorld
 dependency2.to=ren
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=hurdle
 dependency3.type=UsesDependency
-dependency4.from=hurdle
-dependency4.to=georgeweapon2
+dependency4.from=georgeweapon2
+dependency4.to=renweapon2
 dependency4.type=UsesDependency
-dependency5.from=george
+dependency5.from=renweapon2
 dependency5.to=georgeweapon2
 dependency5.type=UsesDependency
-dependency6.from=george
-dependency6.to=renweapon2
+dependency6.from=hurdle
+dependency6.to=georgeweapon2
 dependency6.type=UsesDependency
-dependency7.from=george
-dependency7.to=hurdle
+dependency7.from=hurdle
+dependency7.to=renweapon2
 dependency7.type=UsesDependency
+<<<<<<< HEAD
 dependency8.from=ren
 dependency8.to=renweapon2
 dependency8.type=UsesDependency
 dependency9.from=ren
 dependency9.to=georgeweapon2
+=======
+dependency8.from=george
+dependency8.to=georgeweapon2
+dependency8.type=UsesDependency
+dependency9.from=george
+dependency9.to=renweapon2
+>>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
 dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=68
 editor.fx.0.y=227
 height=638
+<<<<<<< HEAD
 package.numDependencies=10
+=======
+package.numDependencies=13
+>>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
 package.numTargets=10
 project.charset=UTF-8
 publish.hasSource=false

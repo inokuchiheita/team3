@@ -11,7 +11,9 @@ public class renweapon2 extends Actor
     /**
      * Act - do whatever the georgeweapon wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+     */ 
+    int time = 100;
+    
     public renweapon2(int dig)
     {
         super();        
@@ -20,8 +22,18 @@ public class renweapon2 extends Actor
     
     public void act() 
     {
+<<<<<<< HEAD
+=======
+        time--;
+>>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
         move(-5);
         // Add your action code here.
+        Actor actor = getOneIntersectingObject( georgeweapon2.class );
+        if( actor != null ){
+                    getWorld().removeObject( actor );
+        }  
+        if(time<1)
+        getWorld().removeObject(this);
     } 
     
 }
