@@ -43,10 +43,17 @@ public class ren extends Actor
             setRotation(dig);
             move(2);
         }
+<<<<<<< HEAD
         
+=======
+
+        
+        
+
+>>>>>>> 3498167528d77c46264a30a0209e190405e8876c
         move(-2);
        
-        Actor actor = getOneIntersectingObject( georgeweapon.class );
+        Actor actor = getOneIntersectingObject( georgeweapon2.class );
         if( actor != null ){
                     hp--;// TARO とぶつかった時の処理を書く
                     getWorld().removeObject( actor );
@@ -58,6 +65,10 @@ public class ren extends Actor
             setLocation( x,y );
         }  
        
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3498167528d77c46264a30a0209e190405e8876c
 
 
 

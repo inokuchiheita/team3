@@ -47,6 +47,10 @@ public class george extends Actor
             setRotation(dig);
             move(-2);
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3498167528d77c46264a30a0209e190405e8876c
         if( flag_tama > 0 ) flag_tama--;
         if( Greenfoot.isKeyDown( "e" ) ){
              {if( flag_tama == 0 ){
@@ -57,10 +61,14 @@ public class george extends Actor
         }
     }  
         
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3498167528d77c46264a30a0209e190405e8876c
         move(2);
         
         //当たり判定
-        Actor actor = getOneIntersectingObject( renweapon.class );
+        Actor actor = getOneIntersectingObject( renweapon2.class );
         if( actor != null ){
                     hp--;// TARO とぶつかった時の処理を書く
                     getWorld().removeObject( actor );
@@ -73,6 +81,10 @@ public class george extends Actor
             setLocation( x,y );
         }  
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3498167528d77c46264a30a0209e190405e8876c
 
 
     }    
