@@ -27,7 +27,6 @@ public class george extends Actor
         int y = getY();
         
         
-        
         if( Greenfoot.isKeyDown( "a" ) ){
 
             dig=dig-5;
@@ -75,9 +74,10 @@ public class george extends Actor
             setLocation( x,y );
         }  
 
-
-
-
+        if(hp==0){
+        getWorld().showText( "HOGE", 100, 50 );
+        Greenfoot.stop();
+        }  
     }    
 }
 
