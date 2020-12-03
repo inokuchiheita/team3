@@ -59,7 +59,7 @@ public class george extends Actor
     }  
         
 
-        move(2);
+        move(1);
         
         //当たり判定
         Actor actor = getOneIntersectingObject( renweapon2.class );
