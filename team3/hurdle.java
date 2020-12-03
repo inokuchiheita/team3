@@ -20,5 +20,9 @@ public class hurdle extends Actor
         if( actor != null ){
                     getWorld().removeObject( actor );
         }    
+        Actor actor1 = getOneIntersectingObject( renweapon2.class );
+        if( actor1 != null ){
+                    getWorld().removeObject( actor1 );
+        }   
     }    
 }

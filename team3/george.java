@@ -45,7 +45,7 @@ public class george extends Actor
         if( Greenfoot.isKeyDown( "s" ) ){
             //setLocation( x-1,y );
             setRotation(dig);
-            move(-2);
+            move(-1);
         }
 
         if( flag_tama > 0 ) flag_tama--;

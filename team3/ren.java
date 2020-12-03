@@ -42,12 +42,12 @@ public class ren extends Actor
         if( Greenfoot.isKeyDown( "5" ) ){
             //setLocation( x-1
             setRotation(dig);
-            move(2);
+            move(1);
         }
 
-<<<<<<< HEAD
-        move(-2);
-=======
+
+        move(-1);
+
               if( flag_tama > 0 ) flag_tama--;
         if( Greenfoot.isKeyDown( "9" ) ){
              {if( flag_tama == 0 ){
@@ -59,8 +59,7 @@ public class ren extends Actor
     }  
         
 
-        move(-1);
->>>>>>> 0d6acd2304c2040749b663304b9c52e42f45d113
+
        
         Actor actor = getOneIntersectingObject( georgeweapon2.class );
         if( actor != null ){
