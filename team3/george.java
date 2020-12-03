@@ -47,7 +47,6 @@ public class george extends Actor
             setRotation(dig);
             move(-2);
         }
-<<<<<<< HEAD
         if( flag_tama > 0 ) flag_tama--;
         if( Greenfoot.isKeyDown( "e" ) ){
              {if( flag_tama == 0 ){
@@ -58,7 +57,6 @@ public class george extends Actor
         }
     }  
         
-=======
         move(2);
         
         //当たり判定
@@ -75,7 +73,6 @@ public class george extends Actor
             setLocation( x,y );
         }  
 
->>>>>>> ea5ed65e3cbbda52c610a9ec93cdcf91a15b69e2
 
 
     }    

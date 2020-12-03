@@ -22,6 +22,8 @@ public class georgeweapon2 extends Actor
     {
         move(3);
         // Add your action code here.
+  
+        
     } 
     
 }

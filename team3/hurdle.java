@@ -16,6 +16,9 @@ public class hurdle extends Actor
     private int dig = 0;
     public void act() 
     {
-       
+       Actor actor = getOneIntersectingObject( georgeweapon2.class );
+        if( actor != null ){
+                    getWorld().removeObject( actor );
+        }    
     }    
 }
