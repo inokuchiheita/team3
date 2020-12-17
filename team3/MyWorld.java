@@ -18,7 +18,7 @@ public class MyWorld extends World
         
               // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        /*int A = 0;
+        int A = 0;
         int B = 600;
         int c = A + (int)(Math.random()*((B-A)+1));
         int g = A + (int)(Math.random()*((B-A)+1));
@@ -28,19 +28,20 @@ public class MyWorld extends World
         int I = 300;
         int J = 400;
         int f = D + (int)(Math.random()*((E-D)+1));
-        int h = I + (int)(Math.random()*((J-I)+1));*/
+        int h = I + (int)(Math.random()*((J-I)+1));
         addObject( new george(), 100, 200 );
         addObject( new ren(), 500, 200 );
         
         addObject( new hurdle(), 300, 200);
-        addObject( new hurdle(), c, f );
-        addObject( new hurdle(), g, h );
+        
+        addObject( new hurdle2(), c, f );
+        addObject( new hurdle3(), g, h );
         
     
 
-        addObject( new hurdle(), 300, 100);
+        /*addObject( new hurdle(), 300, 100);
         addObject( new hurdle(), 100, 300 );
-        addObject( new hurdle(), 450, 320);
+        addObject( new hurdle(), 450, 320);*/
         
   
 
