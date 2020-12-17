@@ -31,13 +31,13 @@ public class MyWorld extends World
         int h = I + (int)(Math.random()*((J-I)+1));
         addObject( new george(), 100, 200 );
         addObject( new ren(), 500, 200 );
-<<<<<<< HEAD
+        
         addObject( new hurdle(), 300, 200);
         addObject( new hurdle(), c, f );
         addObject( new hurdle(), g, h );
         
     
-=======
+
         addObject( new hurdle(), 300, 100);
         addObject( new hurdle(), 100, 300 );
         addObject( new hurdle(), 450, 320);
@@ -45,9 +45,9 @@ public class MyWorld extends World
   
 
     }
->>>>>>> fc3357b5a361cd8c61107378048c759b59506756
+
 }
-}
+
         
     
 
