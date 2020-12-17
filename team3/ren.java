@@ -56,7 +56,7 @@ public class ren extends Actor
 
 
               if( flag_tama > 0 ) flag_tama--;
-        if( Greenfoot.isKeyDown( "9" ) ){
+        if( Greenfoot.isKeyDown( "7" ) ){
              {if( flag_tama == 0 ){
                 getWorld().addObject( new renweapon2(getRotation()), x, y );
                 
@@ -85,7 +85,9 @@ public class ren extends Actor
                     }
         }    
         Actor actor1 = getOneIntersectingObject( hurdle.class );
-        if( actor1 != null ){
+        Actor actor2 = getOneIntersectingObject( hurdle2.class );
+        Actor actor3 = getOneIntersectingObject( hurdle3.class );
+        if( actor1 != null ||actor2 != null ||actor3 != null  ){
             setRotation(dig);
             setLocation( x,y );
         }  

@@ -87,7 +87,9 @@ public class george extends Actor
         }    
         
         Actor actor1 = getOneIntersectingObject( hurdle.class );
-        if( actor1 != null ){
+        Actor actor2 = getOneIntersectingObject( hurdle2.class );
+        Actor actor3 = getOneIntersectingObject( hurdle3.class );
+        if( actor1 != null ||actor2 != null ||actor3 != null  ){
             setRotation(dig);
             setLocation( x,y );
         }  
