@@ -60,7 +60,7 @@ public class ren extends Actor
              {if( flag_tama == 0 ){
                 getWorld().addObject( new renweapon2(getRotation()), x, y );
                 
-                flag_tama = 50;
+                flag_tama = 40;
             }
         }
     }  

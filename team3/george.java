@@ -59,7 +59,7 @@ public class george extends Actor
              {if( flag_tama == 0 ){
                 getWorld().addObject( new georgeweapon2(getRotation()), x, y );
                 
-                flag_tama = 50;
+                flag_tama = 40;
             }
         }
     }  
