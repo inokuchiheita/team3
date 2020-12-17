@@ -19,7 +19,12 @@ public class hurdle extends Actor
     int c = A + (int)(Math.random()*((B-A)+1));
     public void act() 
     {
+
+   
+       
+
        setRotation(c);
+
        Actor actor = getOneIntersectingObject( georgeweapon2.class );
         if( actor != null ){
                     getWorld().removeObject( actor );

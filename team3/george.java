@@ -13,10 +13,17 @@ public class george extends Actor
     private int flag_tama = 0;
     private int dig = 0;
     private int hp = 3;
+    private GreenfootImage imglife2 = null;
+    private GreenfootImage imglife1 = null;
     /**
      * Act - do whatever the george wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+     public george() 
+    { 
+        imglife2 = new GreenfootImage( "images/georgelife2.png" );
+        imglife1 = new GreenfootImage( "images/georgelife1.png" );
+    } 
     public void act() 
     {
 
@@ -66,16 +73,29 @@ public class george extends Actor
                     hp--;// TARO とぶつかった時の処理を書く
                     getWorld().removeObject( actor );
                     setLocation( 100,200 );
+                    switch(hp){
+                        case 2:
+                        setImage(imglife2);
+                        break;
+                        case 1:
+                        setImage(imglife1);
+                        break;
+                        case 0:
+                        
+                        break;
+                    }
         }    
         
         Actor actor1 = getOneIntersectingObject( hurdle.class );
-        if( actor1 != null ){
+        Actor actor2 = getOneIntersectingObject( hurdle2.class );
+        Actor actor3 = getOneIntersectingObject( hurdle3.class );
+        if( actor1 != null ||actor2 != null ||actor3 != null  ){
             setRotation(dig);
             setLocation( x,y );
         }  
 
         if(hp==0){
-        getWorld().showText( "HOGE", 100, 50 );
+        getWorld().showText( "ren win", 100, 50 );
         Greenfoot.stop();
         }  
     }    

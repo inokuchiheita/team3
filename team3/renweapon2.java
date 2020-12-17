@@ -22,6 +22,7 @@ public class renweapon2 extends Actor
     
     public void act() 
     {
+
         time--;
         move(-5);
         // Add your action code here.
