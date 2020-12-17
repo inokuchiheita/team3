@@ -22,10 +22,8 @@ public class renweapon2 extends Actor
     
     public void act() 
     {
-<<<<<<< HEAD
-=======
+
         time--;
->>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
         move(-5);
         // Add your action code here.
         Actor actor = getOneIntersectingObject( georgeweapon2.class );

@@ -46,10 +46,8 @@ public class ren extends Actor
         }
 
 
-<<<<<<< HEAD
-=======
         move(-1);
->>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
+
 
               if( flag_tama > 0 ) flag_tama--;
         if( Greenfoot.isKeyDown( "9" ) ){
@@ -62,12 +60,7 @@ public class ren extends Actor
     }  
         
 
-<<<<<<< HEAD
-        move(-1);
-=======
->>>>>>> c64873e9e565061f4d607a158fdfb006c0fbeecd
-
-       
+     
         Actor actor = getOneIntersectingObject( georgeweapon2.class );
         if( actor != null ){
                     hp--;// TARO とぶつかった時の処理を書く
