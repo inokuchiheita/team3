@@ -50,6 +50,24 @@ public class ren extends Actor
             setRotation(dig);
             move(1);
         }
+        if( Greenfoot.isKeyDown( "k" ) ){
+            dig=dig-5;
+            setRotation(dig);
+        }
+        if( Greenfoot.isKeyDown( ";" ) ){
+            dig=dig+5;
+            setRotation(dig);
+        }
+        if( Greenfoot.isKeyDown( "o" ) ){
+            //setLocation( x+1,y );
+            setRotation(dig);
+            move(-3);
+        }
+        if( Greenfoot.isKeyDown( "l" ) ){
+            //setLocation( x-1
+            setRotation(dig);
+            move(1);
+        }
 
 
         move(-1);
@@ -64,7 +82,14 @@ public class ren extends Actor
             }
         }
     }  
-        
+        if( Greenfoot.isKeyDown( "p" ) ){
+             {if( flag_tama == 0 ){
+                getWorld().addObject( new renweapon2(getRotation()), x, y );
+                
+                flag_tama = 40;
+            }
+        }
+    }  
 
      
         Actor actor = getOneIntersectingObject( georgeweapon2.class );
