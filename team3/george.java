@@ -95,7 +95,8 @@ public class george extends Actor
         }  
 
         if(hp==0){
-        getWorld().showText( "ren win", 100, 50 );
+            World renwin = new renwin();
+            Greenfoot.setWorld(renwin);
         Greenfoot.stop();
         }  
     }    

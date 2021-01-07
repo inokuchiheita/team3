@@ -117,7 +117,8 @@ public class ren extends Actor
             setLocation( x,y );
         }  
         if(hp==0){
-        getWorld().showText( "george win", 100, 50 );
+        World georgewin = new georgewin();
+            Greenfoot.setWorld(georgewin);
         Greenfoot.stop();
         }  
 
