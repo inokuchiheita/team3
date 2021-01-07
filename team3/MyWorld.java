@@ -29,13 +29,14 @@ public class MyWorld extends World
         int J = 400;
         int f = D + (int)(Math.random()*((E-D)+1));
         int h = I + (int)(Math.random()*((J-I)+1));
+        addObject( new hurdle(), 300, 200);
+        addObject( new hurdle2(), c, f );
+        addObject( new hurdle3(), g, h );
+        
         addObject( new george(), 100, 200 );
         addObject( new ren(), 500, 200 );
         
-        addObject( new hurdle(), 300, 200);
         
-        addObject( new hurdle2(), c, f );
-        addObject( new hurdle3(), g, h );
         
     
 
