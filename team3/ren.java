@@ -74,7 +74,7 @@ public class ren extends Actor
 
 
               if( flag_tama > 0 ) flag_tama--;
-        if( Greenfoot.isKeyDown( "7" ) ){
+        if( Greenfoot.isKeyDown( "9" ) ){
              {if( flag_tama == 0 ){
                 getWorld().addObject( new renweapon2(getRotation()), x, y );
                 Greenfoot.playSound("renshot.mp3");
