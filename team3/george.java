@@ -23,6 +23,8 @@ public class george extends Actor
     { 
         imglife2 = new GreenfootImage( "images/georgelife2.png" );
         imglife1 = new GreenfootImage( "images/georgelife1.png" );
+        
+        
     } 
     public void act() 
     {
@@ -46,7 +48,7 @@ public class george extends Actor
         if( Greenfoot.isKeyDown( "w" ) ){
             //setLocation( x+1,y );
             setRotation(dig);
-            move(3);
+            move(4);
         }
         if( Greenfoot.isKeyDown( "s" ) ){
             //setLocation( x-1,y );
@@ -58,7 +60,7 @@ public class george extends Actor
         if( Greenfoot.isKeyDown( "e" ) ){
              {if( flag_tama == 0 ){
                 getWorld().addObject( new georgeweapon2(getRotation()), x, y );
-                
+                Greenfoot.playSound("georgeshot.mp3");
                 flag_tama = 40;
             }
         }
@@ -73,15 +75,18 @@ public class george extends Actor
                     hp--;// TARO とぶつかった時の処理を書く
                     getWorld().removeObject( actor );
                     setLocation( 100,200 );
+                    
                     switch(hp){
                         case 2:
+                        Greenfoot.playSound("hidan.mp3");
                         setImage(imglife2);
                         break;
                         case 1:
+                        Greenfoot.playSound("hidan.mp3");
                         setImage(imglife1);
                         break;
                         case 0:
-                        
+                        Greenfoot.playSound("ending.mp3");
                         break;
                     }
         }    
@@ -95,10 +100,13 @@ public class george extends Actor
         }  
 
         if(hp==0){
+            MyWorld mw = (MyWorld)getWorld();
+            if(mw != null) mw.stop_music();
             World renwin = new renwin();
             Greenfoot.setWorld(renwin);
-        Greenfoot.stop();
-        }  
+            Greenfoot.stop();
+        }
+       
     }    
 }
 

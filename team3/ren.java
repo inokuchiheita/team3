@@ -77,16 +77,16 @@ public class ren extends Actor
         if( Greenfoot.isKeyDown( "7" ) ){
              {if( flag_tama == 0 ){
                 getWorld().addObject( new renweapon2(getRotation()), x, y );
-                
-                flag_tama = 40;
+                Greenfoot.playSound("renshot.mp3");
+                flag_tama = 35;
             }
         }
     }  
         if( Greenfoot.isKeyDown( "p" ) ){
              {if( flag_tama == 0 ){
                 getWorld().addObject( new renweapon2(getRotation()), x, y );
-                
-                flag_tama = 40;
+                Greenfoot.playSound("renshot.mp3");
+                flag_tama = 35;
             }
         }
     }  
@@ -97,14 +97,18 @@ public class ren extends Actor
                     hp--;// TARO とぶつかった時の処理を書く
                     getWorld().removeObject( actor );
                     setLocation( 500,200 );
+                    
                     switch(hp){
                         case 2:
+                        Greenfoot.playSound("hidan.mp3");
                         setImage(imglife2);
                         break;
                         case 1:
+                        Greenfoot.playSound("hidan.mp3");
                         setImage(imglife1);
                         break;
                         case 0:
+                        Greenfoot.playSound("ending.mp3");
                         
                         break;
                     }
@@ -117,11 +121,14 @@ public class ren extends Actor
             setLocation( x,y );
         }  
         if(hp==0){
+        MyWorld mw = (MyWorld)getWorld();
+            if(mw != null) mw.stop_music();
         World georgewin = new georgewin();
             Greenfoot.setWorld(georgewin);
         Greenfoot.stop();
+        
         }  
-
+       
 
 
 

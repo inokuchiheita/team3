@@ -13,11 +13,15 @@ public class MyWorld extends World
      * 
      */
     
+    private GreenfootSound music;
+    
+   
     public MyWorld()
     {    
         
               // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        
         int A = 0;
         int B = 600;
         int c = A + (int)(Math.random()*((B-A)+1));
@@ -36,17 +40,27 @@ public class MyWorld extends World
         addObject( new george(), 100, 200 );
         addObject( new ren(), 500, 200 );
         
+        music = new GreenfootSound("music.mp3");
+        music.playLoop();
         
         
-    
 
         /*addObject( new hurdle(), 300, 100);
         addObject( new hurdle(), 100, 300 );
         addObject( new hurdle(), 450, 320);*/
         
+        //if(!music.isPlaying())
+         //   {
+          //      music.playLoop();//}   
   
 
     }
+    
+    public void stop_music()
+    {
+        if(music != null ) music.stop();
+    }
+    
 }
 
         
